@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyraBot - Dashboard</title>
+    <link rel="stylesheet" href="inicio/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Nyra<span>Bot</span></h1>
+                </div>
+                <ul class="menu">
+                    <li><a href="#inicio" class="active">Início</a></li>
+                    <li><a href="#comandos">Comandos</a></li>
+                    <li><a href="#suporte">Suporte</a></li>
+                    <li><a href="#documentacao">Documentação</a></li>
+                    <li><a href="#fanarts">Fan Arts</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                
+                <h1>Conheça <span>Nyra</span></h1>
+                <p>Transforme seu servidor com economia, moderação, utilidades e muito mais.</p>
+                <div class="buttons">
+                    <a href="https://discord.com/oauth2/authorize?client_id=1360627884716331088&permissions=2080374975&integration_type=0&scope=bot+applications.commands" class="btn btn-primary">Adicionar ao Servidor</a>
+                    <a href="#comandos" class="btn btn-secondary">Ver Comandos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="imgs/nyra.png" alt="Nyra Bot Logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="recursos" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recursos <span>Poderosos</span></h2>
+                <p>Descubra tudo o que Nyra pode fazer por você</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Comandos Intuitivos</h3>
+                    <p>Interface amigável com comandos fáceis de aprender e utilizar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Moderação Eficiente</h3>
+                    <p>Mantenha seu servidor seguro com ferramentas de moderação avançadas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>Economia de Qualidade</h3>
+                    <p>Faça sua carreira, e ganhe Flocos que te ajdaram em sua jornada.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Mini-jogos Divertidos</h3>
+                    <p>Diversos jogos para entreter os membros do seu servidor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comandos" class="commands">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comandos <span>Principais</span></h2>
+                <p>Explore todas as funcionalidades do Nyra Bot</p>
+            </div>
+            <div class="commands-container">
+                <div class="commands-category">
+                    <h3>Moderação</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <div class="command-name">/ban</div>
+                            <div class="command-description">Bane um usuário do servidor</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/kick</div>
+                            <div class="command-description">Expulsa um usuário do servidor</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/mute</div>
+                            <div class="command-description">Silencia um usuário temporariamente</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/clear</div>
+                            <div class="command-description">Limpa mensagens no canal</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commands-category">
+                    <h3>Utilidades</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <div class="command-name">/help</div>
+                            <div class="command-description">Exibe a lista de comandos disponíveis</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/serverinfo</div>
+                            <div class="command-description">Mostra informações sobre o servidor</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/userinfo</div>
+                            <div class="command-description">Exibe informações sobre um usuário</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/poll</div>
+                            <div class="command-description">Cria uma enquete interativa</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commands-category">
+                    <h3>Diversão</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <div class="command-name">/meme</div>
+                            <div class="command-description">Envia um meme aleatório</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/8ball</div>
+                            <div class="command-description">Responde a uma pergunta aleatoriamente</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/gato</div>
+                            <div class="command-description">Envia uma imagem aleatória de gato</div>
+                        </div>
+                        <div class="command-item">
+                            <div class="command-name">/cachorro</div>
+                            <div class="command-description">Envia uma imagem aleatória de cachorro</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="commands-more">
+                <a href="#documentacao" class="btn btn-outline">Ver Todos os Comandos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="suporte" class="support">
+        <div class="container">
+            <div class="section-header">
+                <h2>Suporte <span>Dedicado</span></h2>
+                <p>Estamos aqui para ajudar você a qualquer momento</p>
+            </div>
+            <div class="support-content">
+                <div class="support-info">
+                    <div class="support-item">
+                        <div class="support-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="support-text">
+                            <h3>Servidor de Suporte</h3>
+                            <p>Entre em nosso servidor oficial para obter ajuda diretamente da nossa equipe de suporte.</p>
+                            <a href="https://discord.gg/T9vtWEwCj8" class="btn btn-secondary">Entrar no Servidor</a>
+                        </div>
+                    </div>
+                    <!--                     <div class="support-item">
+                        <div class="support-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="support-text">
+                            <h3>Enviar Sugestão</h3>
+                            <p>Envie suas sugestões de forma rapida e inteligente.</p>
+                            <a href="mailto:suporte@nyrabot.com" class="btn btn-secondary">Enviar E-mail</a>
+                        </div>
+                    </div> -->
+                    <div class="support-item">
+                        <div class="support-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="support-text">
+                            <h3>Perguntas Frequentes</h3>
+                            <p>Consulte nossa seção de perguntas frequentes para respostas rápidas.</p>
+                            <a href="#faq" class="btn btn-secondary">Ver FAQ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="support-form">
+                    <h3>Envie sua Sugestão</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="documentacao" class="documentation">
+        <div class="container">
+            <div class="section-header">
+                <h2>Documentação <span>Completa</span></h2>
+                <p>Tudo o que você precisa saber para utilizar o Nyra Bot</p>
+            </div>
+            <div class="docs-grid">
+                <div class="docs-card">
+                    <div class="docs-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Primeiros Passos</h3>
+                    <p>Aprenda a configurar e começar a usar o Nyra Bot em seu servidor.</p>
+                    <a href="docs/doc-index.html" class="docs-link" target="_blank">Ler Guia <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="docs-card">
+                    <div class="docs-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Lista de Comandos</h3>
+                    <p>Lista completa de comandos com explicações detalhadas e exemplos de uso.</p>
+                    <a href="#" class="docs-link">Ler Guia <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fanarts" class="fanarts">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fan <span>Arts</span></h2>
+                <p>Criações incríveis da nossa comunidade</p>
+            </div>
+            <div class="fanarts-gallery">
+                <div class="fanart-item">
+                    <img src="/api/placeholder/300/300" alt="Fan Art 1">
+                    <div class="fanart-info">
+                        <h4>Nyra Arte #1</h4>
+                        <p>por @artista1</p>
+                    </div>
+                </div>
+                <div class="fanart-item">
+                    <img src="/api/placeholder/300/300" alt="Fan Art 2">
+                    <div class="fanart-info">
+                        <h4>Nyra Arte #2</h4>
+                        <p>por @artista2</p>
+                    </div>
+                </div>
+                <div class="fanart-item">
+                    <img src="/api/placeholder/300/300" alt="Fan Art 3">
+                    <div class="fanart-info">
+                        <h4>Nyra Arte #4</h4>
+                        <p>por @artista3</p>
+                    </div>
+                </div>
+                <div class="fanart-item">
+                    <img src="/api/placeholder/300/300" alt="Fan Art 4">
+                    <div class="fanart-info">
+                        <h4>Nyra Arte #5t</h4>
+                        <p>por @artista4</p>
+                    </div>
+                </div>
+                <div class="fanart-item">
+                    <img src="/api/placeholder/300/300" alt="Fan Art 5">
+                    <div class="fanart-info">
+                        <h4>Nyra Arte #6</h4>
+                        <p>por @artista5</p>
+                    </div>
+                </div>
+                <div class="fanart-item">
+                    <img src="/api/placeholder/300/300" alt="Fan Art 6">
+                    <div class="fanart-info">
+                        <h4>Nyra Arte #7</h4>
+                        <p>por @artista6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fanarts-submit">
+                <h3>Envie sua Fan Art</h3>
+                <p>Compartilhe sua arte com toda a comunidade!</p>
+                <a href="https://discord.gg/T9vtWEwCj8" class="btn btn-primary">Enviar Fan Art</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perguntas <span>Frequentes</span></h2>
+                <p>Respostas para as dúvidas mais comuns</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>O que é o Nyra e para que ele serve?</h3>
+                        <div class="faq-icon"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nyra é um bot completo com foco em economia, moderação, utilitários e diversão, com uma temática mágica de neve. Ideal para servidores que buscam um toque estiloso e funcional.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como eu adiciono o Nyra ao meu servidor?</h3>
+                        <div class="faq-icon"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Clique em “Adicionar ao Discord” aqui no site e autorize o bot com as permissões necessárias. É preciso ser administrador do servidor.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3> O que são os “Flocos” e como posso ganhar mais?</h3>
+                        <div class="faq-icon"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Flocos são a moeda do Nyra. Você pode ganhá-los usando comandos como /daily, /trabalhar, participando de eventos, missões e interagindo com o bot.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso perder meus Flocos ou progresso?</h3>
+                        <div class="faq-icon"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não! Todos os seus dados ficam salvos com segurança. Mesmo que você saia do servidor, seu progresso permanece guardado e pode ser recuperado se voltar.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso sugerir comandos ou relatar bugs?</h3>
+                        <div class="faq-icon"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Entre no nosso servidor oficial para enviar sugestões, relatar bugs ou falar com a equipe do Nyra diretamente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Nyra<span>Bot</span></h2>
+                    <p>Elevando sua experiência no Discord</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Links Rápidos</h3>
+                        <ul>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#comandos">Comandos</a></li>
+                            <li><a href="#suporte">Suporte</a></li>
+                            <li><a href="#documentacao">Documentação</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Termos de Serviço</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                            <li><a href="#">Diretrizes da Comunidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Social</h3>
+                        <div class="social-icons">
+                            <a href="https://discord.gg/T9vtWEwCj8"><i class="fab fa-discord"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nyra Bot. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="inicio/script.js"></script>
+</body>
+</html>
